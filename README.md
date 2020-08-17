@@ -2,4 +2,5 @@
 Un générateur d'ID FII écrit en Rust
 
 ### Usage:
-`(./)fii-id {server}`
+`(./)fii-id {server} {number}`
+
