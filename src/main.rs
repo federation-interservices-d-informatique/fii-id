@@ -13,5 +13,6 @@ fn main() {
     }
     let rnd = gen_random();
 
-    
+    println!("Votre ID FII:");
+    println!("FII - {} - {} - FII", args[1].to_uppercase(), rnd);
 }
