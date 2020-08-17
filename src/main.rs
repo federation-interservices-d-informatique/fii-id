@@ -1,9 +1,9 @@
 mod lib;
 use lib::functions::gen_random;
 fn main() {
-    let servers = vec!("MIM", "TH", "LPT", "TAB");
+    let servers = vec!("MIM", "THN", "LPT", "TAB");
     let args: Vec<String> = std::env::args().collect();
-    if args.len() != 2  {
+    if args.len() != 3  {
         println!("Pas assez d'arguments!"); 
         std::process::exit(1); 
     }
@@ -14,5 +14,5 @@ fn main() {
     let rnd = gen_random();
 
     println!("Votre ID FII:");
-    println!("FII - {} - {} - FII", args[1].to_uppercase(), rnd);
+    println!("FII - {} - {} - {} - FII", args[1].to_uppercase(), args[2], rnd);
 }
