@@ -1,5 +1,8 @@
 mod lib;
-use lib::functions::gen_random;
+use lib::functions::{
+    checknum,
+    gen_random
+};
 fn main() {
     let servers = vec!("MIM", "THN", "LPT", "TAB");
     let args: Vec<String> = std::env::args().collect();
@@ -12,7 +15,7 @@ fn main() {
         std::process::exit(1);
     }
     let rnd = gen_random();
-
+    let num = checknum(format!("{}", args[2]));
     println!("Votre ID FII:");
-    println!("FII - {} - {} - {} - FII", args[1].to_uppercase(), args[2], rnd);
+    println!("FII - {} - {} - {} - FII", args[1].to_uppercase(), num, rnd);
 }
