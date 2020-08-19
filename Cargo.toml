@@ -1,9 +1,13 @@
 [package]
 name = "fii-id"
 version = "0.1.0"
+description = "Générateur d'ID FII"
 authors = ["Woomy4680-exe <matzar1808@gmail.com>"]
+license = "MIT"
 edition = "2018"
 
+homepage = "https://github.com/federation-interservices-d-informatique/idgen"
+repository = "https://github.com/federation-interservices-d-informatique/idgen"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
