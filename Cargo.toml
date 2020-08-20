@@ -1,6 +1,6 @@
 [package]
 name = "fii-id"
-version = "0.1.0"
+version = "1.0.0"
 description = "Générateur d'ID FII"
 authors = ["Woomy4680-exe <matzar1808@gmail.com>"]
 license = "MIT"
