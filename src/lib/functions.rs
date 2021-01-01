@@ -5,10 +5,10 @@ pub fn gen_random() -> i64 {
 pub fn checknum(num: String) -> String {
     let mut n: String;
     n = num.clone();
-    while num.len() >= 10 {
+    while n.len() < 5 {
         n = format!("0{}", n.clone());
     }
-    return num.to_string();
+    return n.to_string();
 }
 pub fn usage() {
     let argsvec: Vec<String> = std::env::args().collect();
