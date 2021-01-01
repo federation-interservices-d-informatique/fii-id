@@ -4,7 +4,7 @@ use lib::functions::{
     gen_random
 };
 fn main() {
-    let servers = vec!("ADP", "MIM", "THN", "LPT", "TAB");
+    let servers = vec!("ADP", "MIM", "LPT", "CLI");
     let args: Vec<String> = std::env::args().collect();
     if args.len() != 3  {
         println!("Pas assez d'arguments!"); 
