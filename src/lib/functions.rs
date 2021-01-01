@@ -24,3 +24,7 @@ pub fn checknum(num: String) -> String {
         }
     }
 }
+pub fn usage() {
+    let argsvec: Vec<String> = std::env::args().collect();
+    println!("Usage: {} server number", argsvec[0]);
+}
