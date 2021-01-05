@@ -20,4 +20,5 @@ fn main() {
     let num = checknum(format!("{}", args[2]));
     println!("Votre ID FII:");
     println!("FII-{}-{}-{}-FII", args[1].to_uppercase(), num, rnd);
+    println!("Cet ID ne doit pas être partagé.");
 }
