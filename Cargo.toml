@@ -10,4 +10,4 @@ homepage = "https://github.com/federation-interservices-d-informatique/fii-id"
 repository = "https://github.com/federation-interservices-d-informatique/fii-id"
 
 [dependencies]
-rand = "0.8.0"
+rand = "0.8.3"
