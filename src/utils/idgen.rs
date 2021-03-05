@@ -1,4 +1,4 @@
-use crate::{checknum,gen_random};
+use crate::utils::functions::{checknum,gen_random};
 pub fn generate_id(server: &str, num: &str) -> String {
     let rnd = gen_random();
     let num = checknum(format!("{}", num));
